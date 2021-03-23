@@ -32,11 +32,11 @@ header {
 
 h1 {
   font-weight: 800;
-  font-size: 3.5em;
+  font-size: 3.85vw;
 }
 
 .pHeader {
-  font-size: 1.8em;
+  font-size: 1.95vw;
   margin: 2vw 0vw 3.5vw 0vw;
 }
 
@@ -96,13 +96,13 @@ h1 {
 #feaDes > p {
   width: 30vw;
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.4vw;
 }
 
 #feaDes > h3 {
   text-align: center;
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: 2.75vw;
   margin-bottom: 1.5vw;
 }
 
@@ -111,32 +111,33 @@ main {
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 3.6vw;
   font-weight: 800;
 }
 
 .mainP {
   width: 25.601vw;
-  font-size: 1.3rem;
+  font-size: 1.4vw;
 }
 
 .stepName {
-  font-size: 2rem;
+  font-size: 1.95vw;
   font-weight: 800;
   margin: 1.5vw 0vw;
 }
 
-span {
+.divider {
   display: block;
   border-radius: 20px;
   width: 5vw;
   height: 0.3vw;
-  background-color: black;
+  background-color: #e253ac;
+
   margin-bottom: 1.5vw;
 }
 
 .steps {
-  margin-top: 6vw;
+  margin-top: 14vw;
   display: flex;
   justify-content: space-between;
 }
@@ -155,19 +156,73 @@ span {
 #videoWrap > p {
   width: 21.181vw;
   margin-top: 1.5vw;
-  font-size: 1.3rem;
+  font-size: 1.4vw;
   color: #c8c8c8;
+}
+
+video {
+  margin: 9vw 0vw;
+  width: 58.7vw;
+  height: 33vw;
+  background-color: white;
+}
+
+h2 {
+  display: flex;
+}
+
+#underline {
+  margin-left: 1vw;
+  position: relative;
+}
+
+#underlined {
+  position: absolute;
+  top: 3.3vw;
+  width: 16vw;
+  height: 1vw;
+  background-color: #e253ac;
+  z-index: -1;
+}
+
+.bgNum {
+  position: relative;
+}
+
+.bgNumber {
+  position: absolute;
+  top: -180px;
+  font-size: 14em;
+  font-weight: 900;
+  color: #f6cae5;
+  z-index: -1;
 }
 
 footer {
   margin-top: -9vw;
   height: 15.208vw;
   background-color: #0093be;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-video {
-  margin: 9vw 0vw;
-  width: 58.819vw;
-  height: 35.278vw;
-  background-color: white;
+h4 {
+  font-size: 1.2vw;
+}
+
+.featureBlock > p {
+  font-size: 1.1vw;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn > p {
+  font-size: 1.1vw;
+}
+
+.mrgnl {
+  margin-right: 5.556vw;
 }
