@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  font-family: "open sans";
+}
+
+.mrgn {
+  margin: 0vw 5.556vw;
+}
+
+header {
+  color: #ffffff;
+}
+
+#header1 {
+  background-image: url(assets/top.png);
+  background-size: cover;
+  height: 55.972vw;
+  display: flex;
+  align-items: center;
+}
+
+#header2 {
+  background-image: url(assets/bottom.png);
+  background-size: cover;
+}
+
+#heroContent {
+  margin: 10vw 0vw;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3.5em;
+}
+
+.pHeader {
+  font-size: 1.8em;
+  margin: 2vw 0vw 3.5vw 0vw;
+}
+
+.btn {
+  width: 10.556vw;
+  height: 3.167vw;
+  background-color: #0093be;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marginIcons {
+  margin-right: 1.5vw;
+}
+
+#header2 {
+  height: 42.087vw;
+  display: flex;
+  align-items: center;
+}
+
+#blueSec {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featureBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 13.681vw;
+  text-align: center;
+}
+
+.featureBlock > h4 {
+  margin: 0.5vw 0vw;
+  font-weight: 700;
+}
+
+#features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 3vw;
+  column-gap: 1vw;
+}
+
+#feaDes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 12vw;
+}
+#feaDes > p {
+  width: 30vw;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#feaDes > h3 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 1.5vw;
+}
+
+main {
+  margin: 9vw 5.556vw;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+.mainP {
+  width: 25.601vw;
+  font-size: 1.3rem;
+}
+
+.stepName {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 1.5vw 0vw;
+}
+
+span {
+  display: block;
+  border-radius: 20px;
+  width: 5vw;
+  height: 0.3vw;
+  background-color: black;
+  margin-bottom: 1.5vw;
+}
+
+.steps {
+  margin-top: 6vw;
+  display: flex;
+  justify-content: space-between;
+}
+#video {
+  margin: 9vw -5.556vw;
+  color: white;
+  background-color: #2f3845;
+  display: flex;
+  align-items: center;
+}
+
+#videoWrap {
+  margin: 5.556vw;
+}
+
+#videoWrap > p {
+  width: 21.181vw;
+  margin-top: 1.5vw;
+  font-size: 1.3rem;
+  color: #c8c8c8;
+}
+
+footer {
+  margin-top: -9vw;
+  height: 15.208vw;
+  background-color: #0093be;
+}
+
+video {
+  margin: 9vw 0vw;
+  width: 58.819vw;
+  height: 35.278vw;
+  background-color: white;
+}
