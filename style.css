@@ -225,3 +225,123 @@ img {
 .mrgnl {
   margin-right: 5.556vw;
 }
+
+@media only screen and (max-width: 530px) {
+  #header1 {
+    background-image: url(assets/mobile-cover.png);
+    height: 200vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #soMe {
+    display: none;
+  }
+  #header2 {
+    background-image: url(assets/rectangle-mobile.png);
+    height: 221.014vw;
+    justify-content: center;
+    align-items: unset;
+  }
+
+  #blueSec {
+    flex-direction: column-reverse;
+  }
+
+  #features {
+    margin: ;
+  }
+
+  #feaDes {
+    margin: 0;
+  }
+
+  #feaDes > h3 {
+    font-size: 6vw;
+    margin-bottom: 4vw;
+  }
+
+  #feaDes > p {
+    font-size: 3vw;
+    width: unset;
+  }
+  .steps {
+    flex-direction: column;
+  }
+
+  #video {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
+  .btn {
+    width: 30.556vw;
+    height: 9vw;
+  }
+  .btn > p {
+    font-size: 2.8vw;
+  }
+  .pHeader {
+    font-size: 4vw;
+    margin: 3vw 0vw 4.5vw 0vw;
+  }
+
+  #heroContent {
+    margin: 65vw 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    display: unset;
+    font-size: 8vw;
+    width: 70vw;
+  }
+
+  #underline {
+    margin-left: 0.2vw;
+  }
+
+  #underlined {
+    left: 0;
+    top: 7.5vw;
+    width: 36.3vw;
+    height: 2.3vw;
+  }
+
+  .stepName {
+    font-size: 4vw;
+  }
+
+  .mainP {
+    font-size: 3vw;
+    width: 60vw;
+    margin-bottom: 10vw;
+  }
+
+  .bgNumber {
+    top: -15.3vw;
+    font-size: 50vw;
+    left: -12vw;
+  }
+
+  #videoWrap > p {
+    width: 70vw;
+    margin-top: 1.5vw;
+    font-size: 3vw;
+    color: #c8c8c8;
+  }
+
+  video {
+    margin: 9vw 2.6vw;
+    width: 90vw;
+    height: 50.7vw;
+    background-color: white;
+  }
+}
