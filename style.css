@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
-  font-family: "open sans";
+  font-family: "montserrat";
 }
 
 .mrgn {
@@ -14,15 +13,15 @@ header {
 }
 
 #header1 {
-  background-image: url(assets/top.png);
+  background-image: url(assets/cover.jpg);
   background-size: cover;
-  height: 55.972vw;
+  height: 56.622vw;
   display: flex;
   align-items: center;
 }
 
 #header2 {
-  background-image: url(assets/bottom.png);
+  background-image: url(assets/cover-second.jpg);
   background-size: cover;
 }
 
@@ -43,7 +42,7 @@ h1 {
 .btn {
   width: 10.556vw;
   height: 3.167vw;
-  background-color: #0093be;
+  background-color: #a0dbfc;
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -71,6 +70,10 @@ h1 {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+
+.featureBlock > img {
+  margin-bottom: 0.5vw;
 }
 
 .featureBlock > h4 {
@@ -101,7 +104,7 @@ h1 {
 #feaDes > h3 {
   text-align: center;
   font-weight: 800;
-  font-size: 2.75vw;
+  font-size: 2.55vw;
   margin-bottom: 1.5vw;
 }
 
@@ -143,7 +146,7 @@ h2 {
 #video {
   margin: 9vw -5.556vw;
   color: white;
-  background-color: #2f3845;
+  background-color: #99a0ef;
   display: flex;
   align-items: center;
 }
@@ -200,7 +203,7 @@ h2 {
 footer {
   margin-top: -9vw;
   height: 15.208vw;
-  background-color: #0093be;
+  background-color: #a0dbfc;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -236,7 +239,7 @@ img {
     text-align: center;
   }
 
-  #soMe {
+  .mobile {
     display: none;
   }
   #header2 {
@@ -248,10 +251,6 @@ img {
 
   #blueSec {
     flex-direction: column-reverse;
-  }
-
-  #features {
-    margin: ;
   }
 
   #feaDes {
@@ -322,13 +321,13 @@ img {
   .mainP {
     font-size: 3vw;
     width: 60vw;
-    margin-bottom: 10vw;
+    margin-bottom: 13vw;
   }
 
   .bgNumber {
     top: -15.3vw;
     font-size: 50vw;
-    left: -12vw;
+    left: -11vw;
   }
 
   #videoWrap > p {
@@ -343,5 +342,33 @@ img {
     width: 90vw;
     height: 50.7vw;
     background-color: white;
+  }
+
+  #features {
+    grid-template-columns: 1fr;
+  }
+
+  h4 {
+    font-size: 3.4vw;
+  }
+
+  .featureBlock > p {
+    font-size: 2.8vw;
+  }
+
+  .featureBlock > img {
+    margin-bottom: 1vw;
+  }
+
+  img {
+    width: 20%;
+  }
+
+  .mrgnl {
+    width: 10%;
+  }
+
+  .special {
+    margin-bottom: 20vw;
   }
 }
